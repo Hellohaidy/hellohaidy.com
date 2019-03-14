@@ -1,0 +1,27 @@
+@import '../../global/colors';
+
+.socialBar{
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        margin: 0;
+
+        a{
+            font-size: 1.8rem;
+            color: $color-primary-darker;
+            margin: 0 1rem 0 1rem;
+            transition: .1s;
+
+            &:hover{
+                color: $color-accent;
+                transform: translate(0, -3px);
+            }
+            &:active{
+                color: $color-primary-lighter;
+                transform: translate(0, 3px);
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import './global/colors';
+
+.App{
+    padding: 2rem 0 0 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 98.5vh;
+}
+
+.tempFooter{
+    margin: 0;
+    padding: .5rem;
+    color: $color-txt-onDark;
+    text-align: center;
+    background-color: $color-primary;
+
+    span{
+        color: $color-secondary-lighter;
+    }
+}

@@ -1,0 +1,30 @@
+
+.mvp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 300px;
+    }
+
+    h1{
+        font-size: 4rem;
+        margin: .5rem 0 .5rem 0;
+    }
+
+    p{
+        width: 40%;
+        text-align: center;
+    }
+
+    @media (max-width: 600px){
+        img{
+            width: 150px;
+        }
+        p{
+            width: 70%;
+        }
+    }
+}
